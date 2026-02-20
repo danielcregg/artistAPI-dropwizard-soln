@@ -20,7 +20,4 @@ public class ArtistApiApplication extends Application<ArtistApiConfig> {
         environment.healthChecks().register("example", healthCheck);
         environment.jersey().register(resource);
     }
-
 }
-
-
